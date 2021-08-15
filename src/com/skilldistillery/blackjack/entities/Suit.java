@@ -8,4 +8,9 @@ public enum Suit { HEARTS("Hearts"), SPADES("Spades"), CLUBS("Clubs"), DIAMONDS(
 		this.name = thePoliteNameForDisplay;
 
 }
+	
+	@Override
+	public String toString() {
+		return name;
+	}
 }
